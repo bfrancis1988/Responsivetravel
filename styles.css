@@ -1,0 +1,152 @@
+body{
+  background-image: url("fountain.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-color:#ffe6cc;
+}
+
+h1{
+  font-size:3em;
+  text-align:center;
+  background-color:#ffb366;
+  margin: 5% 20% 5% 20%;
+  border:double;
+  padding: 1%;
+}
+
+nav{
+  display:none;
+}
+
+.dropdown {
+  position: absolute;
+  left: 1%;
+  top: 1%;
+  display: inline-block;
+  Background-color:#ffb366;
+  font-size:2em;
+  border:double;
+  padding: 1%;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+  font-size:initial;
+  background-color:#c6b39f;
+
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.maincontent{
+  border:double;
+  background-color:#ffb366;
+  padding:1%;
+  margin:1%;
+}
+
+img{
+  height:400px;
+  margin: 10% 15% 5% 15%;
+  border:solid;
+
+}
+
+.tower{
+  display:none;
+}
+
+.cathedral{
+  display:none;
+}
+
+footer{
+  border:double;
+  background-color: #c6b39f;
+  text-align:center;
+  padding:1%;
+  margin:1%
+}
+
+p{
+  font-size:1.5em;
+}
+
+@media screen and (min-width: 785px) {
+
+  .tower{
+    display:initial;
+  }
+
+  .column{
+    width:30%;
+    float:left;
+    display:initial;
+    margin:5%;
+  }
+
+  .maincontent{
+    clear:both;
+  }
+
+}
+
+@media screen and (min-width: 1200px) {
+  .dropdown{
+    display:none;
+  }
+
+  nav{
+    display:initial;
+  }
+  ul{
+  list-style-type: none;
+  margin: 0px 0px 5px 0px;
+  padding: 2px 40px 2px 40px;
+  width: 100%;
+  background-color: black;
+  position: fixed;
+  top:0px;
+
+
+  }
+
+li a{
+  float:left;
+  padding:2%;
+  font-size:2em;
+  display: block;
+  color: #c6b39f;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+h1{
+  margin-top: 10%;
+}
+
+p{
+  font-size:2em;
+  }
+
+  .cathedral{
+    display:initial;
+  }
+
+  .column{
+    width:30%;
+    float:left;
+    display:initial;
+    margin:1%;
+  }
+}
